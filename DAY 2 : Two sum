@@ -14,5 +14,5 @@ print("original arrray:\n",arr)
 n=len(arr)
 target=int(input("Enter your's target:"))
 ans=s1.two_sum(arr,n,target)
-print(ans)
+print("indxes of two sum array:",ans)
 
