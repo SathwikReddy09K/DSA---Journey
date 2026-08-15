@@ -14,4 +14,9 @@ class solution:
               i+=1
         return arr                               
 
-
+s1=solution()      
+arr=list(map(int,input("Enter array:").split()))    #input array
+print("Original array:\n",arr)
+n=len(arr)         #length of array
+ans=s1.movezeroes_to_end(arr,n)                     
+print("After moving zeroes to end of array:\n",ans)
