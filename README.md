@@ -15,7 +15,7 @@
 
 # Daily Progress
 
-DAY 1 : Move Zeroes 
+giDAY 1 : Move Zeroes 
 DAY 2 : Two Sum 
 DAY 3 : Maximum sum Subarray of size k
 DAY 4 : Left rotate the array by one
