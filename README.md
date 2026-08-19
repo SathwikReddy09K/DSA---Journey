@@ -23,10 +23,11 @@ DAY 5 : Rotate a array by k places(left or right)
 DAY 6 : Best time to buy and sell stock
 DAY 7 : Find pivotidex
 DAY 8 : Product of array expect itself
-
+DAY 9 : Basic single linkedlist 
+DAY 10: Reversing single linkedlist
 
 
 # Goal
 
-Solve DSA problems regularly and improve problem-solving skills for coding interviews.
+ TO Solve DSA problems regularly and improve problem-solving skills for coding interviews.
   
