@@ -1,3 +1,4 @@
+'''basic single linkedlist '''
 class linkedlist:
     def __init__(self,data):
         self.data=data
