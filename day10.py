@@ -3,11 +3,21 @@ class linkedlist:
         self.data=data
         self.next=None
 
-    def traveral(self,current):
-        while current!=None:
-            print(current.data,"-<",end=" ")
-            current=current.next
+    def traveral(self,curr):
+        while curr!=None:
+            print(curr.data,"-<",end=" ")
+            curr=curr.next
         print("NULL")
+
+    def reversing(self,curr):
+        prev=None
+        while curr!=None:
+           next_node=curr.next
+           curr.next=prev
+           prev=curr
+           curr=next_node
+        return prev
+        
 
 
 node1=linkedlist(10)
@@ -23,17 +33,11 @@ node4.next=node5
 node5.next=None
 
 head=node1
-current=head
 print("original single linkedlist:")
-node1.traveral(current)
+head.traveral(head)
 
-node2.next=node1
-node3.next=node2
-node4.next=node3
-node5.next=node4
-node1.next=None
+rev=head.reversing(head)
 
-head=node5
-current=head
-print("Reversing  single linkedlist:")
-node5.traveral(current)
+print("After reversing single linkedlist:")
+head.traveral(rev)
+
