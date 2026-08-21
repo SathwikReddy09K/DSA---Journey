@@ -8,6 +8,7 @@ class Node:
             print(curr.data,"-<",end=" ")
             curr=curr.next
         print("NULL")
+
     def Middle_node(self,head):
         fast=head
         slow=head
