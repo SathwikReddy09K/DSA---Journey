@@ -12,20 +12,23 @@ class Node:
         print("NULL")
 
     def deleting_node(self,head,val):
+        count=0
         if head.data==val:
             temp=head
             head=head.next
             temp.next=None
-            return head
+            count=1
+            return head,count
         curr=head
         prev=curr
         while curr!= None :
             if curr.data==val:
                 prev.next=curr.next
                 curr.next=None
+                count=1
             prev=curr
             curr=curr.next
-        return head
+        return head,count
 node1=Node(10)            
 node2=Node(20)
 node3=Node(30)
@@ -47,8 +50,12 @@ head.traveral(head)
 
 val=int(input("Enter a value to delete the node:"))
 
-ans=head.deleting_node(head,val)
-print("After deleting the node:")
-head.traveral(ans)
+ans,count=head.deleting_node(head,val)
+
+if count:
+    print("After deleting the node:")
+    head.traveral(ans)
+else:
+    print("you entered worng element")
 
 
