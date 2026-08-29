@@ -14,17 +14,22 @@
 - Trees
 
 # Daily Progress
+Problem 1 : Move Zeroes 
+Problem 2 : Two Sum 
+Problem 3 : Maximum sum Subarray of size k
+Problem 4 : Left rotate the array by one
+Problem 5 : Rotate a array by k places(left or right)
+Problem 6 : Best time to buy and sell stock
+Problem 7 : Find pivotidex
+Problem 8 : Product of array expect itself
+Problem 9 : Basic single linked list 
+Problem 10: Reversing single linked list
+problem 11: Middle node of single linked list
+problem 12: Finding kth node from end of single linked list
 
-DAY 1 : Move Zeroes 
-DAY 2 : Two Sum 
-DAY 3 : Maximum sum Subarray of size k
-DAY 4 : Left rotate the array by one
-DAY 5 : Rotate a array by k places(left or right)
-DAY 6 : Best time to buy and sell stock
-DAY 7 : Find pivotidex
-DAY 8 : Product of array expect itself
-DAY 9 : Basic single linkedlist 
-DAY 10: Reversing single linkedlist
+problem 14: Middle nodes of single linked list
+problem 15: Deleting specific node from single linked list
+problem 16: Reversing only specificed position of single linked list
 
 
 # Goal

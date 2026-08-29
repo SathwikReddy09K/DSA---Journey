@@ -18,7 +18,8 @@ class Node:
             curr=curr.next
             count+=1
         fast=curr
-        return fast    
+        return fast   
+    
     def finding_kth_node(self,head,fast):
         slow=head
         while fast!=None:

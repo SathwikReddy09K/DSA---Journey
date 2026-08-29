@@ -1,4 +1,4 @@
-'''Reversing only specificed nodes'''
+'''Reversing only specificed position  nodes'''
 
 class Node:
     def __init__(self,data):
@@ -50,8 +50,8 @@ head=node1
 print("Original linked list:")
 head.traveral(head)
 
-m=int(input("Enter m value:"))
-n=int(input("Enter n value:"))
+m=int(input("Enter m position:"))
+n=int(input("Enter n position:"))
 new_head=head.finding_nodes(head,m,n)
 head.traveral(new_head)
 

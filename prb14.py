@@ -1,4 +1,4 @@
-'''Middle of  the linked list'''
+'''Middle nodes of  single linked list'''
 
 class Node:
     def __init__(self,data):
@@ -49,7 +49,7 @@ print()
 new_head=head.delete_fornt_node(head)
 ans=head.delete_last_node(new_head)
 
-print("Middle nodes of the linked list :")
+print("Middle nodes of single linked list :")
 head.traveral(ans)
 
 
