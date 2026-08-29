@@ -9,60 +9,38 @@ class Node:
             curr=curr.next
         print("NULL")
 
+    def compare_odd_even(self,head):
 
-    def comparing(self,head1,head2):
-        curr1,curr2=head1,head2
-        temp1,temp2=head1,head2
-        new_head=None
-        while curr1 !=None and curr2 !=None :
-            if curr1.data < curr2.data :
-                temp1=curr1
-                curr1=curr1.next
-                temp1.next=None
-                new_head=self.merge_node(temp1,new_head)
+        odd_tail=even_tail=head
+        odd_head=even_head=None
+        curr=head
+
+        while(curr !=None):
+
+            if curr.data % 2 !=0:
+
+                if even_head!=None:
+                    prev_even,prev_odd=prev_odd,prev_even
+                curr_odd=curr_odd.next
+            
+
             else:
-                temp2=curr2
-                curr2=curr2.next
-                temp2.next=None
-                new_head=self.merge_node(temp2,new_head)
+                prev_even=curr_even.data
+                curr_even=curr_even.next
 
-        while curr1 != None:
-            while new_head.next !=None:
-                new_head=new_head.next
-            new_head.next=curr1
+        return head       
 
-            while curr2 != None:
-                while new_head.next !=None:
-                    new_head=new_head.next
-                    new_head.next=curr2
-        return new_head
+head=Node(17)
+head.next=Node(15)
+head.next.next=Node(8)
+head.next.next.next=Node(7)
+head.next.next.next.next=Node(2)
+head.next.next.next.next.next=Node(4)
+head.next.next.next.next.next.next=Node(6)
 
-    def merge_node(self,temp,new_head):
-            if new_head==None:
-                new_head=temp
-            else:
-                new_curr=new_head
-                while new_curr.next!=None:
-                    new_curr=new_curr.next
-                new_curr.next=temp
-            return new_head
-          
+print("single linked list:")
+head.traveral(head)
 
-
-head1=Node(1)            
-head1.next=Node(4)
-head1.next.next=Node(6)
-
-head2=Node(2)
-head2.next=Node(3)
-head2.next.next=Node(5)
-head2.next.next=Node(7)
-
-
-head1.traveral(head1)
-head2.traveral(head2)
-ans=head1.comparing(head1,head2)
-head1.traveral(ans)
-
-
+ans=head.compare_odd_even(head)
+head.traveral(ans)
 
