@@ -4,34 +4,38 @@ class Node:
         self.next=None
 
     def traveral(self,curr):
-        while curr!=None:
+        while curr:
             print(curr.data,"-<",end=" ")
             curr=curr.next
         print("NULL")
 
-    def reversing(self,curr):
+    def reversing(self,head2):
             prev=None
+            curr=head2
             while curr!=None:
                next_node=curr.next
                curr.next=prev
                prev=curr
                curr=next_node
-               head2=curr
+            head2=prev
+    
             return head2
 
     def compersion(self,head1,head2):
-         curr=head1
-         curr2=head2
-         while curr!=None and curr2!=None:
-                if curr.data!=curr2.data:
-                    return "NO"
-         return "YES"
+        curr1=head1
+        curr2=head2
+        while curr1 and curr2:
+            if curr1.data!=curr2.data:
+                return False
+            curr1=curr1.next
+            curr2=curr2.next
+        return True
 
 
 node1=Node(1)            
 node2=Node(2)
-node3=Node(1)
-node4=Node(1)
+node3=Node(3)
+node4=Node(3)
 node5=Node(2)
 node6=Node(1)
 
@@ -47,11 +51,16 @@ head=node1
 print("original single linkedlist:")
 head.traveral(head)
 
-hd=head.reversing(head)
+head2=head.reversing(head)
 
-print("GIven single linkedlist is palindrome :")
-ans=head.compersion(head,hd)
-print(ans)
+
+print("Given single linkedlist is palindrome :")
+ans=head2.compersion(head,head2)
+
+if ans:
+    print("True")
+else:
+    print("False")      
 
 
 
