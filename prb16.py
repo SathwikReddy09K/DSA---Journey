@@ -17,16 +17,29 @@ class Node:
         count=0
         while curr != None :
             count+=1
-            if count==m:
-                temp1=curr.data
-                new_node=curr
-
-            elif count==n:
-                temp2=curr.data
-                curr.data=temp1
-                new_node.data=temp2
             
-            curr=curr.next    
+            if m<n:
+                if count==m:
+                    temp1=curr.data
+                    new_node=curr
+
+                elif count==n:
+                    temp2=curr.data
+                    curr.data=temp1
+                    new_node.data=temp2
+
+            else:
+                if count==n:
+                    temp1=curr.data
+                    new_node=curr
+                
+                elif count==m:
+                    temp2=curr.data
+                    curr.data=temp1
+                    new_node.data=temp2
+                        
+            curr=curr.next  
+
         return head            
 
 
