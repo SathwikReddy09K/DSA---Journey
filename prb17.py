@@ -1,3 +1,4 @@
+'''Reversing sides nodes of single linked list'''
 class Node:
     def __init__(self,data):
         self.data=data
