@@ -26,10 +26,14 @@ Problem 9 : Basic single linked list
 Problem 10: Reversing single linked list
 problem 11: Middle node of single linked list
 problem 12: Finding kth node from end of single linked list
-
+problem 13: checking given linked list palindrome of single linked list
 problem 14: Middle nodes of single linked list
 problem 15: Deleting specific node from single linked list
 problem 16: Reversing only specificed position of single linked list
+problem 17: Reversing sides nodes of single linked list
+
+
+problem 20: Detect cycle in single linked list
 
 
 # Goal
