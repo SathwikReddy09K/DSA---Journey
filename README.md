@@ -31,8 +31,8 @@ problem 14: Middle nodes of single linked list
 problem 15: Deleting specific node from single linked list
 problem 16: Reversing only specificed position of single linked list
 problem 17: Reversing sides nodes of single linked list
-
-
+problem 18: Odd-even single linked list
+problem 19: Reversing kth node from 1st with kth node from last
 problem 20: Detect cycle in single linked list
 
 
