@@ -1,3 +1,4 @@
+'''Roman to integer, roman are(I,X,V,C,D,M)'''
 def Roman_to_int(str):
     k=len(str)
     sum=0
