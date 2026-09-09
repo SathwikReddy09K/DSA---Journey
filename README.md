@@ -34,6 +34,14 @@ problem 17: Reversing sides nodes of single linked list
 problem 18: Odd-even single linked list
 problem 19: Reversing kth node from 1st with kth node from last
 problem 20: Detect cycle in single linked list
+problem 21: Adding nodes of two single linked list
+problem 22: Max adjacent diff sum with 1 replacement
+problem 23:
+problem 24: Roman to integer, roman are(I,X,V,C,D,M)
+problem 25: Reversing string
+problem 26: Palindrome checking of string
+problem 27: find the index of the first occurrence in a string
+
 
 
 # Goal
