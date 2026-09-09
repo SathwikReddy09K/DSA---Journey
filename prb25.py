@@ -1,6 +1,6 @@
 class solution:
 
-    def reverseing_string(self,str):
+    def reversing_string(self,str):
         n=len(str)
         for i in range(int(n/2)):
             str[i],str[n-i-1]=str[n-i-1],str[i]
@@ -12,5 +12,5 @@ str=input("Enter string:")
 str=list(str)
 print("Original string in list:",str)
 
-ans=s1.reverseing_string(str)      
+ans=s1.reversing_string(str)      
 print("After reversing string:",ans) 
