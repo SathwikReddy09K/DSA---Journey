@@ -2,7 +2,7 @@
 
 def modify_array(arr):
     for i in range(1,len(arr)):
-        diff=abs(arr[i-1] - arr[i])
+        diff=abs(arr[i-1] - arr[i])      
         if diff == 1:
             arr[i]=1
     return arr        
@@ -10,7 +10,7 @@ def modify_array(arr):
 def sum_of_diff(arr):
     sum=0
     for i in range(1,len(arr)):
-        sum+=abs(arr[i-1]-arr[i])
+        sum+=abs(arr[i-1]-arr[i])     
     return sum    
             
 
