@@ -40,7 +40,13 @@ problem 23:
 problem 24: Roman to integer, roman are(I,X,V,C,D,M)
 problem 25: Reversing string
 problem 26: Palindrome checking of string
-problem 27: find the index of the first occurrence in a string
+problem 27: Find the index of the first occurrence in a string
+problem 28: Palindrome II after deleting one character
+problem 29: Longest palindrom substring
+problem 30: Length of last word in string
+problem 31: Longest substring without repeating characters
+problem 32: Searching Angram substring in given string
+problem 33:
 
 
 
