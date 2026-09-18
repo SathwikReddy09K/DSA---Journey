@@ -3,17 +3,18 @@ class solution:
         dict={}
         length=0
         prv_length=0
-
+        j=1
         for i in range(len(str)):
             comp=str[i]
             if comp in dict :
-                if dict[comp] >= k:
+                if dict[comp] >k:
                     dict.clear()
                     prv_length=0
                 else:
                     prv_length+=1    
             else: 
-                dict[comp]=i
+                dict[comp]=j
+                j+=1
                 prv_length+=1
             if prv_length > length:
                 length=prv_length
