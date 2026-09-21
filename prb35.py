@@ -1,7 +1,7 @@
 def longestcommonprefix(arr):
     minlen=len(arr[0])
     for s in arr:
-        minlen=min(minlen,len(s))
+        minlen=min(minlen,len(s))      #selecting the minimum length of the string in the array
     res=""    
     for i in range (minlen): 
         if arr[0][i]==arr[1][i]==arr[2][i] :
