@@ -47,6 +47,9 @@ problem 30: Length of last word in string
 problem 31: Longest substring without repeating characters
 problem 32: Searching Angram substring in given string
 problem 33:
+problem 34: Permutation in string
+problem 35: Longest common prefix 
+problem 36: Checking valid parentheses
 
 
 
