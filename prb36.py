@@ -2,23 +2,25 @@ class stack:
     def __init__(self):
         self.stack=[]
     def Isvalid(self,str):
-        for char in str:     
-            if self.stack[-1]==char:
-                self.stack.pop()
-            else:
-                self.stack.append(char)
-
+        for char in str: 
             if len(self.stack)==0:
-                    self.stack.append(char) 
+                self.stack.append(char)  
+ 
+            else:     
+                if ((self.stack[-1]=='('and char==')')or (self.stack[-1]=='{' and char=='}')or (self.stack[-1]=='[' and char==']')):
+
+                    self.stack.pop()
+                else:
+                    self.stack.append(char)
 
         if len(self.stack)==0:
-            return 1
+            return True
         else:
-            return 0        
+            return False       
 
                   
 s1=stack()
-ans=s1.Isvalid("({]")
-print(ans)
-
+str=input("Enter string within {,},[,],(,):")
+ans=s1.Isvalid(str)
+print(f"Checking  vaild parentheses of {str}:",ans)
  
