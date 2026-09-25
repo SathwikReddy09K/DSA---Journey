@@ -46,12 +46,12 @@ problem 29: Longest palindrom substring
 problem 30: Length of last word in string
 problem 31: Longest substring without repeating characters
 problem 32: Searching Angram substring in given string
-problem 33:
+problem 33: Longest substring k unique 
 problem 34: Permutation in string
 problem 35: Longest common prefix 
 problem 36: Checking valid parentheses
-
-
+problem 37: Reverse degree of a string(reverse index of alphabets)
+problem 38: Smallest index with digit sum equal to index
 
 # Goal
 
