@@ -36,7 +36,7 @@ problem 19: Reversing kth node from 1st with kth node from last
 problem 20: Detect cycle in single linked list
 problem 21: Adding nodes of two single linked list
 problem 22: Max adjacent diff sum with 1 replacement
-problem 23:
+problem 23: Add after doing bitwise(AND) operation
 problem 24: Roman to integer, roman are(I,X,V,C,D,M)
 problem 25: Reversing string
 problem 26: Palindrome checking of string
@@ -52,6 +52,12 @@ problem 35: Longest common prefix
 problem 36: Checking valid parentheses
 problem 37: Reverse degree of a string(reverse index of alphabets)
 problem 38: Smallest index with digit sum equal to index
+problem 39: Frequency counter
+problem 40: Prefix sum
+problem 41: No.of Distinct substring in string
+
+
+
 
 # Goal
 
