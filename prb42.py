@@ -12,8 +12,8 @@ class solution:
         return True
 
 s1=solution()
-str1="greeks"
-str2="skeergg"
+str1=input("Enter string 1:")
+str2=input("Enter string 2:")
 ans=s1.check_anagram(str1,str2)
 print("The two strings are anagrams of each other:",ans)    
             
