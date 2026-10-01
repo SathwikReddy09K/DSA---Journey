@@ -1,8 +1,7 @@
 # DSA---python
- My daily Data Structures and Algorithms practice using Python.
+My daily Data Structures and Algorithms practice using Python.
 
 # Topics
-
 - Arrays
 - Strings
 - Sliding Window
@@ -61,6 +60,5 @@ problem 42: Check the two strings are anagram to each other
 
 
 # Goal
-
  TO Solve DSA problems regularly and improve problem-solving skills for coding interviews.
   
