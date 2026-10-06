@@ -19,7 +19,7 @@ Problem 3 : Maximum sum Subarray of size k
 Problem 4 : Left rotate the array by one
 Problem 5 : Rotate a array by k places(left or right)
 Problem 6 : Best time to buy and sell stock
-Problem 7 : Find pivotidex
+Problem 7 : Find pivotidex where (sum of left = sum of right)
 Problem 8 : Product of array expect itself
 Problem 9 : Basic single linked list 
 Problem 10: Reversing single linked list
