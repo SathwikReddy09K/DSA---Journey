@@ -46,7 +46,7 @@ problem 30: Length of last word in string
 problem 31: Longest substring without repeating characters
 problem 32: Searching Angram substring in given string
 problem 33: Longest substring k unique 
-problem 34: Permutation in string
+problem 34: Checking Permutation of s2 can be obtained in s1 string
 problem 35: Longest common prefix 
 problem 36: Checking valid parentheses
 problem 37: Reverse degree of a string(reverse index of alphabets)
@@ -57,6 +57,7 @@ problem 41: No.of Distinct substring in string
 problem 42: Check the two strings are anagram to each other
 problem 43: Find the minimum length of array sum is greater than target
 problem 44: Score of parentheses
+problem 45: Median of two sorted arrays
 
 
 # Goal
