@@ -8,9 +8,6 @@ My daily Data Structures and Algorithms practice using Python.
 - Prefix Sum
 - Two Pointers
 - Linked List
-- Stack
-- Queue
-- Trees
 
 # Daily Progress
 Problem 1 : Move Zeroes 
@@ -58,6 +55,7 @@ problem 42: Check the two strings are anagram to each other
 problem 43: Find the minimum length of array sum is greater than target
 problem 44: Score of parentheses
 problem 45: Median of two sorted arrays
+
 
 
 # Goal
