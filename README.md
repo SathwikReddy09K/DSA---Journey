@@ -55,7 +55,8 @@ problem 42: Check the two strings are anagram to each other
 problem 43: Find the minimum length of array sum is greater than target
 problem 44: Score of parentheses
 problem 45: Median of two sorted arrays
-problem 46:
+problem 46: Sum of triplets equal to zero
+problem 47: colour sort(soting array in  the form of 0's,1's,2's)
 
 
 # Goal
