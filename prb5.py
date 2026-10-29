@@ -35,7 +35,10 @@ print(" Original array:\n",arr,)
 n=len(arr)
 
 k=int(input("\n No.of rotations array:\n"))
+
+#It useful,when no.of rotations are more than n"
 k=k % n
+
 rotation=input("\n Rotation of array left (or) right:\n").lower()
 
 if rotation=="right":  
