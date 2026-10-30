@@ -19,7 +19,7 @@ def consecutive_count(nums):
     return max_count
 
 
-nums=list(map(int,input("Enter values:")))
+nums=list(map(int,input("Enter values:").split()))
 sorted_nums=sorted(nums)
 ans=consecutive_count(sorted_nums)
 print("Longest consecutive numbers:",ans)
