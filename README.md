@@ -58,6 +58,11 @@ problem 45: Median of two sorted arrays
 problem 46: Sum of triplets equal to zero
 problem 47: colour sort(soting array in  the form of 0's,1's,2's)
 problem 48: Find first and last position of element in sort array
+problem 49:
+problem 50: Length of Longest consecutive numbers in array
+problem 51: Remove duplicates from array
+problem 52: Move zeroes end of array(optimal and easy to understand)
+problem 53: union elements from two sorted arrays
 
 # Goal
  TO Solve DSA problems regularly and improve problem-solving skills for coding interviews.
